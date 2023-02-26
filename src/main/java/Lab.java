@@ -32,7 +32,7 @@ public class Lab {
     public String arrayToString(int[] nums){
         String str = "";
         for(int i = 0; i < nums.length; i++){
-            str += nums[i] + " ";
+            str += nums[i] +   " ";
         }
         return str.trim();
     }
